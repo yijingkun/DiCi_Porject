@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>sensor/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>530</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>977</ColumnWidth1><ColumnWidth2>260</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build>
+    <Find-in-Files><ColumnWidth0>470</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>806</ColumnWidth2></Find-in-Files><TerminalIO/><Debug-Log><ColumnWidth0>19</ColumnWidth0><ColumnWidth1>1863</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-8156-26829</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>sensor</ExpandedNode><ExpandedNode>sensor/BC95</ExpandedNode><ExpandedNode>sensor/BC95/BC95.c</ExpandedNode><ExpandedNode>sensor/Output</ExpandedNode><ExpandedNode>sensor/comm</ExpandedNode><ExpandedNode>sensor/prj_149</ExpandedNode><ExpandedNode>sensor/src</ExpandedNode><ExpandedNode>sensor/src/RFM98</ExpandedNode><ExpandedNode>sensor/src/bus</ExpandedNode><ExpandedNode>sensor/src/bus/uart.c</ExpandedNode><ExpandedNode>sensor/src/cc2420</ExpandedNode><ExpandedNode>sensor/src/sensor</ExpandedNode><ExpandedNode>sensor/src/time</ExpandedNode><ExpandedNode>sensor/src/time/timeslot.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-27562-26875</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-16009-283</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-21678-11491</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>109</YPos><SelStart>2472</SelStart><SelEnd>2472</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\src\BC95\BC95.c</Filename><XPos>0</XPos><YPos>861</YPos><SelStart>23184</SelStart><SelEnd>23184</SelEnd></Tab><ActiveTab>1</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\src\time\timeslot.c</Filename><XPos>0</XPos><YPos>237</YPos><SelStart>6640</SelStart><SelEnd>6640</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\board.c</Filename><XPos>0</XPos><YPos>35</YPos><SelStart>1524</SelStart><SelEnd>1524</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\src\bus\uart.c</Filename><XPos>0</XPos><YPos>66</YPos><SelStart>2441</SelStart><SelEnd>2441</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\src\BC95\brd_bc95.h</Filename><XPos>0</XPos><YPos>255</YPos><SelStart>8119</SelStart><SelEnd>8119</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\src\bus\uart.h</Filename><XPos>0</XPos><YPos>156</YPos><SelStart>5084</SelStart><SelEnd>5103</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\src\BC95\common.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>105</SelStart><SelEnd>105</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-027bed80><key>iaridepm.enu1</key></Toolbar-027bed80></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>723</Bottom><Right>620</Right><x>-2</x><y>-2</y><xscreen>505</xscreen><yscreen>579</yscreen><sizeHorzCX>263021</sizeHorzCX><sizeHorzCY>580160</sizeHorzCY><sizeVertCX>323958</sizeVertCX><sizeVertCY>726453</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>230</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>232</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>232465</sizeHorzCY><sizeVertCX>263021</sizeVertCX><sizeVertCY>580160</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

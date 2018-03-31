@@ -1,0 +1,196 @@
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[DebugChecksum]
+Checksum=701869786
+[State Storage]
+Control Register=0
+[Sequencer]
+Control Register=0
+NextState0=0
+NextState1=0
+[Action Register]
+Break=2
+State Storage=0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[struct_types]
+Fmt0=FLASH_PARAMTER_t-SenID	4	0
+Fmt1=SNP_PHR_t-uiDevId	4	0
+Fmt2=SNP_PHR_t-uiType	4	0
+[array_types]
+Fmt0=u16 [100]	4	0
+Fmt1=u16 [16]	4	0
+Fmt2=u16 [3]	3	0
+Fmt3=u32 [32]	4	0
+Fmt4=u8 [100]	3	0
+Fmt5=u8 [21]	3	0
+[watch_formats]
+Fmt0={W}0:AdMagenticFlags	4	0
+Fmt1={W}0:AdTime.Second	3	0
+Fmt2={W}0:ApDetectValue	3	0
+Fmt3={W}0:BaseLineFlag	4	0
+Fmt4={W}0:CheckNumRead	4	0
+Fmt5={W}0:Clock.DelayUplineScan	3	0
+Fmt6={W}0:CompareValue	4	0
+Fmt7={W}0:ConfigFlags	4	0
+Fmt8={W}0:CurrentTimeSlot	4	0
+Fmt9={W}0:DebugFlag	4	0
+Fmt10={W}0:DetectVal.DetectZ	3	0
+Fmt11={W}0:DetectValue	3	0
+Fmt12={W}0:DetectZ.PamSet.bmDetectZ	3	0
+Fmt13={W}0:DetectZ.PamSet.bmUnDetectZ	3	0
+Fmt14={W}0:EventBuff.SavePtr	3	0
+Fmt15={W}0:EventBuff.SendLength	3	0
+Fmt16={W}0:EventBuff.SendPtr	3	0
+Fmt17={W}0:EventBuff.pSendPtr	3	0
+Fmt18={W}0:EventPacket.sPhr.uiType	4	0
+Fmt19={W}0:ExtraFlags	4	0
+Fmt20={W}0:FlashParamt.SenID	4	0
+Fmt21={W}0:HalfBaseLineFlag	4	0
+Fmt22={W}0:ID	4	0
+Fmt23={W}0:Magnetic.AxisZ1	3	0
+Fmt24={W}0:Magnetic.AxisZ2	4	0
+Fmt25={W}0:OnDecZ	3	0
+Fmt26={W}0:PumpHigh	4	0
+Fmt27={W}0:PumpLow	4	0
+Fmt28={W}0:RcvSum	4	0
+Fmt29={W}0:RfParamt.ApID	4	0
+Fmt30={W}0:RfParamt.SenID	4	0
+Fmt31={W}0:RfSendFlags	4	0
+Fmt32={W}0:SaveCodeAddress	4	0
+Fmt33={W}0:SenAckPacket.uiCmd	4	0
+Fmt34={W}0:SenCfgPtr->uiDestId	4	0
+Fmt35={W}0:SenSlotBm	4	0
+Fmt36={W}0:SenSlotIDPacket.uiDevId	4	0
+Fmt37={W}0:SenStatePacket.sPhr.uiTimeSlot	3	0
+Fmt38={W}0:SpiCnt2	3	0
+Fmt39={W}0:StatePacket.PowerFloat	3	0
+Fmt40={W}0:StatePacket.PowerInt	3	0
+Fmt41={W}0:StateSendBuf.SavePtr	3	0
+Fmt42={W}0:Sum	4	0
+Fmt43={W}0:SystemState	3	0
+Fmt44={W}0:TaccAdd.AckSync	3	0
+Fmt45={W}0:TaccAdd.EventAck	3	0
+Fmt46={W}0:TaccAdd.EventSync	3	0
+Fmt47={W}0:TaccAdd.SyncEvent	3	0
+Fmt48={W}0:TempBaseFlag	4	0
+Fmt49={W}0:TestDemo	3	0
+Fmt50={W}0:TestTime2	4	0
+Fmt51={W}0:TestTime3	4	0
+Fmt52={W}0:TimeCommunicatFlag	4	0
+Fmt53={W}0:TimeSlot.AllTimeSlotNum	3	0
+Fmt54={W}0:TimeSlot.Hour	3	0
+Fmt55={W}0:TimeSlot.LastSecPeriod	3	0
+Fmt56={W}0:TimeSlot.ReportSecond	3	0
+Fmt57={W}0:TimeSlot.SenTimeSlotNum	3	0
+Fmt58={W}0:TimeSlot.SyncSecond	3	0
+Fmt59={W}0:TimeSlot.TimeSlotNum	3	0
+Fmt60={W}0:TimeSlot.WdTimeout	3	0
+Fmt61={W}0:TimeSlot.uiRemainSlot	3	0
+Fmt62={W}0:TimeSlotMode	4	0
+Fmt63={W}0:Vlot	3	0
+Fmt64={W}0:a1	4	0
+Fmt65={W}0:a3	3	0
+Fmt66={W}0:aa	4	0
+Fmt67={W}0:bmDetectZTab[DetectZ.PamSet.bmDetectZ]	3	0
+Fmt68={W}0:minSlot	3	0
+Fmt69={W}0:mytemp	4	0
+Fmt70={W}0:pCfgPam.MaxSendEventNum	3	0
+Fmt71={W}0:pCfgPam.SendEventNum	3	0
+Fmt72={W}0:pCfgPam.bmWdTimeout	3	0
+Fmt73={W}0:pSenID	4	0
+Fmt74={W}0:pTimeSlot	4	0
+Fmt75={W}0:slot	3	0
+Fmt76={W}0:t1	3	0
+Fmt77={W}0:temp	4	0
+Fmt78={W}0:test2	4	0
+Fmt79={W}0:tt1	4	0
+Fmt80={W}0:tt2	3	0
+Fmt81={W}0:tt3	3	0
+Fmt82={W}0:ttmp1	4	0
+Fmt83={W}0:ttmp2	4	0
+Fmt84={W}0:ulSlotBm	4	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+[Breakpoints]
+Bp0=_ "STD_CODE" "Memory:0x1402" 0 0 0 0 "" 0 ""
+Count=1
+[FET]
+Clock mode=14
+Extended Clock mode=-1
+Secure Password=
+Extended Clock Control Enable=1
+Advanced Extended Clock Control=0
+Emulation mode=0
+Free running=0
+Shutting Down=3
+[Memory Dump]
+Start address=
+Lenghth=
+Address info=0
+Format=0
+Dump registers=0
+PC=0
+SP=0
+SR=0
+all registers=0
+File name=
+[Aliases]
+A0=_ "D:\liu\检测器\SensorCode\IAR5.3\A晶振关闭省电\256时间周期\2420检测器原始数据 只有时间槽\prj_149\main.c" "D:\liu\检测器\SensorCode\IAR5.3\E晶振关闭省电 时间槽发送接收数据\B定时SYNC\2420检测器原始数据 只有时间槽\prj_149\main.c"
+A1=_ "D:\liu\检测器\SensorCode\IAR5.3\E晶振关闭省电 时间槽发送接收数据\C定时SYNC标准\2420检测器原始数据 只有时间槽\prj_149\main.c" "D:\liu\检测器\SensorCode\IAR5.3\E晶振关闭省电 时间槽发送接收数据\D30秒SYNC标准\2420检测器原始数据 只有时间槽\prj_149\main.c"
+A2=_ "D:\liu\检测器\SensorCode\IAR5.3\V2.3新通讯板\Z应用程序\2420检测器应用程序\prj_149\main.c" ""
+A3=_ "D:\liu\检测器\SensorCode\IAR5.3\V2.3新通讯板\Z应用程序\2420检测器应用程序—电源省电 V3.2\prj_149\main.c" "D:\liu\检测器\SensorCode\IAR5.3\V2.3新通讯板\Z应用程序\30-60 时间槽V3.2\2420电源省电 V3.2\prj_149\main.c"
+A4=_ "D:\liu\检测器\SensorCode\IAR5.3\V2.3新通讯板\Z应用程序\2420检测器原始数据 只有时间槽\prj_149\main.c" "D:\liu\检测器\SensorCode\IAR5.3\V2.3新通讯板\Z应用程序\2420检测器应用程序\prj_149\main.c"
+A5=_ "D:\liu\检测器\SensorCode\IAR5.3\V2.3新通讯板\Z应用程序\4段时间槽V3.5\2420电源省电 V3.5\prj_149\main.c" "D:\liu\检测器\SensorCode\IAR5.3\V2.3新通讯板\Z应用程序\4段时间槽V3.5\2420电源省电 V3.5.1\prj_149\main.c"
+A6=_ "D:\liu\检测器\停车场检测器\16ms系统\青岛（53） -海信-5418 - test\prj_149\main.c" "D:\liu\检测器\停车场检测器\16ms系统\青岛（54） -海信-5418\prj_149\main.c"
+A7=_ "D:\liu\检测器\停车场检测器\16ms系统\青岛（53） -海信-5418 - test\src\bus\uart.c" ""
+A8=_ "D:\liu\检测器\停车场检测器\32ms系统\SEN\2520_ V8.4(探测AD基值校准）\prj_149\main.c" "D:\liu\检测器\停车场检测器\32ms系统\SEN\2520_ V8.5（AD基值探测 ）\prj_149\main.c"
+A9=_ "D:\liu\检测器\停车场检测器\检测器32ms\2520_ V3.8.1（250ms固定中断_省电下载程序）\prj_149\main.c" "D:\liu\检测器\停车场检测器\检测器32ms\2520_ V3.8.1（250ms固定中断_省电独立下载程序）\prj_149\main.c"
+A10=_ "D:\liu\检测器\停车场检测器\检测器32ms\2520_ V3.8.1（250ms固定中断_省电下载程序）\src\bus\uart.c" "D:\liu\检测器\停车场检测器\检测器32ms\2520_ V3.8.1（250ms固定中断_省电独立下载程序）\src\bus\uart.c"
+A11=_ "D:\liu\检测器\停车场检测器\检测器\2520_ V2.7(AD双轴）\prj_149\main.c" "D:\liu\检测器\停车场检测器\检测器32ms\2520_ V3.0(AD双轴）\prj_149\main.c"
+A12=_ "D:\liu\检测器\停车场检测器\检测器\2520_ V2.7(AD双轴）\src\cc2420\cfg.c" "D:\liu\检测器\停车场检测器\检测器32ms\2520_ V3.0(AD双轴）\src\cc2420\cfg.c"
+Count=13
+SuppressDialog=1

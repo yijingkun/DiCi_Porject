@@ -1,0 +1,1922 @@
+################################################################################
+#                                                                              #
+#      IAR Universal Linker V5.2.1.11                                          #
+#                                                                              #
+#           Link time     =  02/Nov/2016  09:52:45                             #
+#           Target CPU    =  MSP430                                            #
+#           List file     =  "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\List\sensor123 #
+#                            .map"                                             #
+#           Output file 1 =  "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\Exe\sensor123. #
+#                            bin"                                              #
+#                            Format: raw-binary                                #
+#           Output file 2 =  "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\Exe\sensor.a43 #
+#                            "                                                 #
+#                            Format: intel-extended                            #
+#           Command line  =  "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\Obj\24l01.r43" #
+#                            "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\Obj\ad.r43"    #
+#                            "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\Obj\board.r43" #
+#                            "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\Obj\cfg.r43"   #
+#                            "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\Obj\flash.r43" #
+#                            "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\Obj\magentic.r #
+#                            43"                                               #
+#                            "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\Obj\main.r43"  #
+#                            "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\Obj\rf_hal.r43 #
+#                            "                                                 #
+#                            "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\Obj\timeslot.r #
+#                            43"                                               #
+#                            "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\Obj\uart.r43"  #
+#                            -o                                                #
+#                            "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\Exe\sensor123. #
+#                            bin"                                              #
+#                            -Fraw-binary -l                                   #
+#                            "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\prj_149\Debug\List\sensor123 #
+#                            .map"                                             #
+#                            -xeso                                             #
+#                            "-ID:\Program Files (x86)\IAR Systems\Embedded Wo #
+#                            rkbench 6.0 Evaluation\430\LIB\"                  #
+#                            -f                                                #
+#                            "D:\liu\检测器\停车场检测器\16ms系统\西安测试---5 #
+#                            418\西安（55） -5418\lnk430f5418Low.xcl"          #
+#                            (-cmsp430 -D?CPU30_OFFSET=2 -QCODE_I=CODE_ID      #
+#                            -Z(DATA)DATA16_I,DATA16_Z,DATA16_N,DATA16_HEAP+_D #
+#                            ATA16_HEAP_SIZE=1C00-5BFF                         #
+#                            -Z(DATA)CODE_I                                    #
+#                            -Z(DATA)DATA20_I,DATA20_Z,DATA20_N,DATA20_HEAP+_D #
+#                            ATA20_HEAP_SIZE                                   #
+#                            -Z(DATA)CSTACK+_STACK_SIZE#                       #
+#                            -Z(CONST)INFO=1800-19FF                           #
+#                            -Z(CONST)INFOA=1980-19FF                          #
+#                            -Z(CONST)INFOB=1900-197F                          #
+#                            -Z(CONST)INFOC=1880-18FF                          #
+#                            -Z(CONST)INFOD=1800-187F                          #
+#                            -Z(CODE)CSTART,ISR_CODE=6000-FF7F                 #
+#                            -Z(CONST)DATA16_C,DATA16_ID,DIFUNCT,CHECKSUM=6000 #
+#                            -FF7F                                             #
+#                            -P(CODE)CODE=6000-FF7F,10000-25BFF                #
+#                            -Z(CODE)CODE_ID                                   #
+#                            -Z(CONST)DATA20_C,DATA20_ID=6000-FF7F,10000-25BFF #
+#                            -Z(CODE)INTVEC=FF80-FFFF                          #
+#                            -Z(CODE)RESET=FFFE-FFFF) -f                       #
+#                            "D:\Program Files (x86)\IAR Systems\Embedded Work #
+#                            bench 6.0 Evaluation\430\config\multiplier32_loc2 #
+#                            .xcl"                                             #
+#                            (-e?Mul8HwLoc2=?Mul8 -e?Mul16HwLoc2=?Mul16        #
+#                            -e?Mul16to32uHwLoc2=?Mul16to32u                   #
+#                            -e?Mul16to32sHwLoc2=?Mul16to32s                   #
+#                            -e?Mul32Hw32Loc2=?Mul32                           #
+#                            -e?Mul64Hw32Loc2=_Mul64i                          #
+#                            -e?Mul32u32uto64iHw32Loc2=_Mul32u32uto64i         #
+#                            -e?Mul32fHwLoc2=_Mul32f                           #
+#                            -e_Mul64fHwPtrLoc2=_Mul64fPtr) -D_STACK_SIZE=A0   #
+#                            "D:\Program Files (x86)\IAR Systems\Embedded Work #
+#                            bench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43"  #
+#                            -D_DATA16_HEAP_SIZE=A0                            #
+#                            "-Ointel-extended=D:\liu\检测器\停车场检测器\16ms #
+#                            系统\西安测试---5418\西安（55） -5418\prj_149\Deb #
+#                            ug\Exe\sensor.a43"                                #
+#                            -s __program_start -D_DATA20_HEAP_SIZE=50         #
+#                                                                              #
+#                           Copyright (C) 1987-2011 IAR Systems AB.            #
+################################################################################
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *           CROSS REFERENCE            *
+                *                                      *
+                ****************************************
+
+       Program entry at :           6000  Relocatable, from module : ?cstart
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  __Heap_Handler             = Basic
+  __SystemLibrary            = DLib
+  __core                     = 430X
+  __data_model               = large
+  __dlib_file_descriptor     = 0
+  __dlib_full_locale_support = 0
+  __double_size              = 32
+  __pic                      = no
+  __reg_r4                   = free
+  __reg_r5                   = free
+  __rt_version               = 3
+
+                ****************************************
+                *                                      *
+                *    AUTOMATIC SYMBOL REDIRECTIONS     *
+                *                                      *
+                ****************************************
+
+
+                ****************************************
+                *                                      *
+                *              ENTRY LIST              *
+                *                                      *
+                ****************************************
+
+Module  Entry                   Address
+------  -----                   -------
+?FILLER_BYTES
+?ABS_ENTRY_MOD
+        _DATA20_HEAP_SIZE        0050
+        _DATA16_HEAP_SIZE        00A0
+        _STACK_SIZE              00A0
+        ?CPU30_OFFSET            0002
+24l01 ( D:\liu\检测器\停车场检测器\16ms系统\西安测试---5418\西安（55） -5418\prj_149\Debug\Obj\24l01.r43 )
+        _A_PADIR_L               0204
+        _A_PAIES_L               0218
+        _A_PAIE_L                021A
+        _A_PAIFG_L               021C
+        _A_PBOUT_L               0222
+        _A_PBDIR_L               0224
+        _A_PBSEL_L               022A
+        _A_UCB0CTLW0_L           05E0
+        _A_UCB0BRW_L             05E6
+        UCB0RXBUF                05EC
+        UCB0TXBUF                05EE
+        _A_UCB0ICTL_L            05FC
+        _A_WDTCTL_L              015C
+        RFM98PowerTbl            D4B8
+        PumpBit                  D4C0
+        gb_RateBuf_Addr          1C00
+        gb_PowerBuf_Addr         1C01
+        gb_BandBuf_Addr          1C02
+        LeadCode                 1C03
+        RFM_flag                 20A2
+        PumpHigh                 1C04
+        PumpLow                  1C06
+        RFM98_SPI_Init           CF02
+        SPI1_ReadWriteByte       CF94
+        RFM98_Write_Reg          D1EE
+        RFM98_Read_Reg           D3A8
+        RFM98_Read_Buf           D1BE
+        RFM98_Write_Buf          D18E
+        RFM98_Config             C6F8
+        RFM98_LoRaEntryRx        CCC6
+        RFM98_LoRaRxPacket       C4F4
+        RFM98_LoRaEntryTx        CC6A
+        RfTxPacket               CACE
+        RfDisable                D49C
+        FIFOP                    6030
+        FIFOP::??INTVEC 84       FFD4
+        PADIR                    0204
+        PADIR_H                  0205
+        PADIR_L                  0204
+        PAIES                    0218
+        PAIES_H                  0219
+        PAIES_L                  0218
+        PAIE                     021A
+        PAIE_H                   021B
+        PAIE_L                   021A
+        PAIFG                    021C
+        PAIFG_H                  021D
+        PAIFG_L                  021C
+        PBOUT                    0222
+        PBOUT_H                  0223
+        PBOUT_L                  0222
+        PBDIR                    0224
+        PBDIR_H                  0225
+        PBDIR_L                  0224
+        PBSEL                    022A
+        PBSEL_H                  022B
+        PBSEL_L                  022A
+        UCB0CTLW0                05E0
+        UCB0CTLW0_H              05E1
+        UCB0CTLW0_L              05E0
+        UCB0BRW                  05E6
+        UCB0BRW_H                05E7
+        UCB0BRW_L                05E6
+        UCB0ICTL                 05FC
+        UCB0ICTL_H               05FD
+        UCB0ICTL_L               05FC
+        WDTCTL                   015C
+        WDTCTL_H                 015D
+        WDTCTL_L                 015C
+ad ( D:\liu\检测器\停车场检测器\16ms系统\西安测试---5418\西安（55） -5418\prj_149\Debug\Obj\ad.r43 )
+        _A_ADC12CTL0_L           0700
+        _A_ADC12CTL1_L           0702
+        _A_ADC12IFG_L            070A
+        _A_ADC12MEM0_L           0720
+        _A_ADC12MEM5_L           072A
+        _A_ADC12MEM6_L           072C
+        ADC12MCTL0               0710
+        ADC12MCTL5               0715
+        ADC12MCTL6               0716
+        _A_PAOUT_L               0202
+        _A_PCSEL_L               024A
+        _A_PDOUT_L               0262
+        _A_PDDIR_L               0264
+        TB0CTL                   03C0
+        TB0CCTL0                 03C2
+        TB0CCR0                  03D2
+        Magnetic                 1C08
+        AdTime                   1C0C
+        LastBaseLineZ            1C24
+        LastBaseLineX            1C26
+        AdInit                   CA5A
+        AdParamterInit           D2FE
+        M_ADX_OPEN               D26A
+        M_ADZ_OPEN               D21A
+        SensorRest               CFD8
+        AD_ALL_OFF               D462
+        GetAdValue               D3C2
+        GetPowerAD               D0C2
+        GetRefAD                 D0F6
+        AdIntrruptInit           D446
+        AdIntrruptOn             D432
+        AdIntrruptOff            D454
+        time                     20A3
+        Timer_B0                 6088
+        Timer_B0::??INTVEC 120   FFF8
+        ADC12CTL0                0700
+        ADC12CTL0_H              0701
+        ADC12CTL0_L              0700
+        ADC12CTL1                0702
+        ADC12CTL1_H              0703
+        ADC12CTL1_L              0702
+        ADC12IFG                 070A
+        ADC12IFG_H               070B
+        ADC12IFG_L               070A
+        ADC12MEM0                0720
+        ADC12MEM0_H              0721
+        ADC12MEM0_L              0720
+        ADC12MEM5                072A
+        ADC12MEM5_H              072B
+        ADC12MEM5_L              072A
+        ADC12MEM6                072C
+        ADC12MEM6_H              072D
+        ADC12MEM6_L              072C
+        PAOUT                    0202
+        PAOUT_H                  0203
+        PAOUT_L                  0202
+        PADIR                    0204
+        PADIR_H                  0205
+        PADIR_L                  0204
+        PBOUT                    0222
+        PBOUT_H                  0223
+        PBOUT_L                  0222
+        PBDIR                    0224
+        PBDIR_H                  0225
+        PBDIR_L                  0224
+        PCSEL                    024A
+        PCSEL_H                  024B
+        PCSEL_L                  024A
+        PDOUT                    0262
+        PDOUT_H                  0263
+        PDOUT_L                  0262
+        PDDIR                    0264
+        PDDIR_H                  0265
+        PDDIR_L                  0264
+        WDTCTL                   015C
+        WDTCTL_H                 015D
+        WDTCTL_L                 015C
+board ( D:\liu\检测器\停车场检测器\16ms系统\西安测试---5418\西安（55） -5418\prj_149\Debug\Obj\board.r43 )
+        _A_PDSEL_L               026A
+        _A_SFRIFG1_L             0102
+        _A_UCSCTL0_L             0160
+        _A_UCSCTL1_L             0162
+        _A_UCSCTL2_L             0164
+        _A_UCSCTL4_L             0168
+        _A_UCSCTL6_L             016C
+        _A_UCSCTL7_L             016E
+        OscInit                  CC0C
+        BoardInit                CE18
+        LedInit                  D374
+        PAOUT                    0202
+        PAOUT_H                  0203
+        PAOUT_L                  0202
+        PADIR                    0204
+        PADIR_H                  0205
+        PADIR_L                  0204
+        PCSEL                    024A
+        PCSEL_H                  024B
+        PCSEL_L                  024A
+        PDSEL                    026A
+        PDSEL_H                  026B
+        PDSEL_L                  026A
+        SFRIFG1                  0102
+        SFRIFG1_H                0103
+        SFRIFG1_L                0102
+        UCSCTL0                  0160
+        UCSCTL0_H                0161
+        UCSCTL0_L                0160
+        UCSCTL1                  0162
+        UCSCTL1_H                0163
+        UCSCTL1_L                0162
+        UCSCTL2                  0164
+        UCSCTL2_H                0165
+        UCSCTL2_L                0164
+        UCSCTL4                  0168
+        UCSCTL4_H                0169
+        UCSCTL4_L                0168
+        UCSCTL6                  016C
+        UCSCTL6_H                016D
+        UCSCTL6_L                016C
+        UCSCTL7                  016E
+        UCSCTL7_H                016F
+        UCSCTL7_L                016E
+        WDTCTL                   015C
+        WDTCTL_H                 015D
+        WDTCTL_L                 015C
+cfg ( D:\liu\检测器\停车场检测器\16ms系统\西安测试---5418\西安（55） -5418\prj_149\Debug\Obj\cfg.r43 )
+        ReportCfg                20A4
+        DetectValueCfg           20A5
+        SenAckPacket             1C28
+        RfParamt                 1C32
+        FlashParamt              1C38
+        CodeBuffer               1C54
+        IntVecBuff               20A6
+        DownCodeFlag             20E8
+        ConfigFlags              1E5E
+        SetFlags                 1E60
+        ChangLastID              1E62
+        SaveCodeAddress          1E64
+        ReportTimeTab            1E68
+        TriggValueTab            20E9
+        CodeAdress               20F1
+        FlshParamtCfg            D15E
+        FlashParamterInit        B2A6
+        SystemParamterInit       C8D4
+        SyncProcess              C1CA
+        SenCfgProcess            969A
+        SenUfCfg                 8E9C
+        WDTCTL                   015C
+        WDTCTL_H                 015D
+        WDTCTL_L                 015C
+flash ( D:\liu\检测器\停车场检测器\16ms系统\西安测试---5418\西安（55） -5418\prj_149\Debug\Obj\flash.r43 )
+        _A_FCTL1_L               0140
+        _A_FCTL3_L               0144
+        CheckNumWrite            1E78
+        CheckNumRead             1E7A
+        EraseSectorFlashB        D4B4
+        FlashWriteB              C964
+        FlashReadB               D292
+        EraseSectorFlash         D4B6
+        FlashWrite               CBAC
+        FlashRead                D242
+        FCTL1                    0140
+        FCTL1_H                  0141
+        FCTL1_L                  0140
+        FCTL3                    0144
+        FCTL3_H                  0145
+        FCTL3_L                  0144
+        WDTCTL                   015C
+        WDTCTL_H                 015D
+        WDTCTL_L                 015C
+magentic ( D:\liu\检测器\停车场检测器\16ms系统\西安测试---5418\西安（55） -5418\prj_149\Debug\Obj\magentic.r43 )
+        InitBaseline             1E7C
+        StableBaseLineZ          1E8A
+        AxisZ1Pam                1E92
+        StableBaseLineX          1E9C
+        AxisX1Pam                1EA4
+        OnStableBaseLineZ        1EAE
+        OnBaseLineBuffZ          1EB6
+        OnBaseLineZ              1EC0
+        OnStableBaseLineX        1ECA
+        OnBaseLineBuffX          1ED2
+        OnBaseLineX              1EDC
+        OnTempBaseZ              1EE6
+        OnTempBaseBuffZ          1EF0
+        OnTempBaseX              1EFA
+        OnTempBaseBuffX          1F04
+        SenTime                  1F0E
+        NearstBaseLineZ          1F16
+        NearstBaseBuffZ          1F20
+        NearstBaseLineX          1F2A
+        NearstBaseBuffX          1F34
+        OnEventTimeZ             1F3E
+        BusEvent                 1F44
+        ChangeBaseBuff           1F5A
+        ChangBasPtr              20F2
+        LastEvent                20F3
+        BaseLineBuff             1F6A
+        OffBaseBuffZ             1F7C
+        OffBaseBuffX             1F84
+        OnGreatEventZ            1F8C
+        OnSmallEventZ            1F8E
+        OnGreatEventX            1F90
+        OnSmallEventX            1F92
+        AdMagenticFlags          1F94
+        BaseLineFlag             1F96
+        HalfBaseLineFlag         1F98
+        OnBaseLineFlag           1F9A
+        ExtraFlags               1F9C
+        SetBaseLineZ             1F9E
+        SetBaseLineX             1FA0
+        HalfEventCntZ            1FA2
+        HalfEventCntX            1FA4
+        SingleFlag               1FA6
+        LastCritcalZ             1FA8
+        LastCritcalX             1FAA
+        TempPositiveCntZ         1FAC
+        TempNegitiveCntZ         1FAE
+        TempPositiveCntX         1FB0
+        TempNegitiveCntX         1FB2
+        SystemState              20F6
+        DetectValue              20F7
+        ApDetectValue            20F8
+        DecValueZ                20F9
+        DecValueX                20FA
+        BasAddNumZ               20FB
+        BasAddNumX               20FC
+        BasDecNumZ               20FD
+        BasDecNumX               20FE
+        BasCountZ                20FF
+        BasCountX                2100
+        BaseChgOnIntZ            1FB4
+        BaseChgOnIntX            1FB6
+        TempBaseFlag             1FB8
+        TempBaseSecond           2101
+        OnBaseUpdateNum          2102
+        OnBaseChangeNum          2103
+        BaseOffNum               2104
+        InitMagenticParamter     B800
+        UpdataBasline            C650
+        SystemScan               84A0
+        JumpToEventON            9F9C
+        EventSave                66B8
+        CommdOffBaseLine         CDC8
+        OnBaseInitChg            B490
+        ScanOnBaseBuff           A9DC
+        DecBase                  D2DC
+        DecBaseOn                D38E
+        EventOff                 AC40
+        SaveEvent                C380
+        BaseLineUpdataZ          B0A0
+        BaseLineUpdataX          AE98
+        OnEventGetBaseLineZ      A504
+        OnEventGetBaseLineX      A770
+        AnyBaseLineUpdateZ       99F0
+        AnyBaseLineUpdateX       9CC6
+        GetBaseLineAny           C83C
+        PAOUT                    0202
+        PAOUT_H                  0203
+        PAOUT_L                  0202
+main ( D:\liu\检测器\停车场检测器\16ms系统\西安测试---5418\西安（55） -5418\prj_149\Debug\Obj\main.r43 )
+        SysTimeSlot              2105
+        TimeSlotMode             2106
+        DownLineNum              2107
+        EventBuff                2108
+        AdPowerTemp              1FBA
+        PowerAd                  1FBE
+        RefAd                    1FC2
+        TestDemo                 211E
+        delay_8S                 CE66
+        main                     B9AA
+        PAOUT                    0202
+        PAOUT_H                  0203
+        PAOUT_L                  0202
+        PDOUT                    0262
+        PDOUT_H                  0263
+        PDOUT_L                  0262
+        WDTCTL                   015C
+        WDTCTL_H                 015D
+        WDTCTL_L                 015C
+rf_hal ( D:\liu\检测器\停车场检测器\16ms系统\西安测试---5418\西安（55） -5418\prj_149\Debug\Obj\rf_hal.r43 )
+        UfAckPacket              1FC4
+        s_aucApBuffer            211F
+        pTimeSlot                1FF0
+        pSenID                   1FF2
+        DemoCnt                  2151
+        RFDataPreprocess         C0D8
+        ComandPro                929C
+        PAOUT                    0202
+        PAOUT_H                  0203
+        PAOUT_L                  0202
+        PDOUT                    0262
+        PDOUT_H                  0263
+        PDOUT_L                  0262
+timeslot ( D:\liu\检测器\停车场检测器\16ms系统\西安测试---5418\西安（55） -5418\prj_149\Debug\Obj\timeslot.r43 )
+        TA1CTL                   0380
+        TA1CCTL0                 0382
+        TA1CCR0                  0392
+        TA1CCR1                  0394
+        pUpLineSecond            2152
+        Clock                    1FF4
+        LastSend                 1FFE
+        TimeSlot                 2006
+        AdValuePacket            2016
+        TaccAdd                  2026
+        EventPacket              2153
+        SenQueryPacket           215F
+        UplinePacket             203A
+        StatePacket              2048
+        BusRequestPacket         2066
+        StateValuePacket         2070
+        SingleRequestPacket      207E
+        DebugPacket              2088
+        TimeCommunicatFlag       209A
+        ReportTime               209C
+        DebugFlag                209E
+        UplineNum                216B
+        RfSendFlags              216C
+        SendBusPtr               216D
+        NotScanSyncNum           216E
+        LastSystem               216F
+        ReSendCnt                2170
+        pStateSecond             20A0
+        TimeParamterInit         CB40
+        TimeSlotConfig           C9E6
+        TimerAInit               D40A
+        TimerA_RestCount         D492
+        TimerAStart              D41E
+        TimerSlot                64B4
+        ModeB_EventSlot          7CE8
+        DownLineConfig           C2B0
+        ReciveUpLineAck          8A88
+        ModeDownCode_Slot        BB4C
+        SaveCode                 BE36
+        ModeUpLineSlot           739C
+        ScanRFSet                A264
+        TimeClockUpdate          C5A6
+        TimerSlot::??INTVEC 98   FFE2
+        PAOUT                    0202
+        PAOUT_H                  0203
+        PAOUT_L                  0202
+        PADIR                    0204
+        PADIR_H                  0205
+        PADIR_L                  0204
+        PDOUT                    0262
+        PDOUT_H                  0263
+        PDOUT_L                  0262
+        WDTCTL                   015C
+        WDTCTL_H                 015D
+        WDTCTL_L                 015C
+uart ( D:\liu\检测器\停车场检测器\16ms系统\西安测试---5418\西安（55） -5418\prj_149\Debug\Obj\uart.r43 )
+        _A_PCDIR_L               0244
+        _A_UCA1CTLW0_L           0600
+        _A_UCA1BRW_L             0606
+        UCA1MCTL                 0608
+        UCA1RXBUF                060C
+        UCA1TXBUF                060E
+        _A_UCA1ICTL_L            061C
+        RecBuf                   2171
+        Rindex                   2176
+        NewLineOFF               2177
+        UartInit                 D12A
+        UartSendByte             D47C
+        UartSendStrings          D3F4
+        usart1_rx                655C
+        Pstr                     2178
+        UartSendNumber           D08A
+        SplitNum                 B64E
+        UartSendNumberH          D01A
+        SplitNumH                C442
+        UartSendNumberH8         D052
+        SplitNumH8               CEB4
+        usart1_rx::??INTVEC 92   FFDC
+        PCDIR                    0244
+        PCDIR_H                  0245
+        PCDIR_L                  0244
+        PCSEL                    024A
+        PCSEL_H                  024B
+        PCSEL_L                  024A
+        UCA1CTLW0                0600
+        UCA1CTLW0_H              0601
+        UCA1CTLW0_L              0600
+        UCA1BRW                  0606
+        UCA1BRW_H                0607
+        UCA1BRW_L                0606
+        UCA1ICTL                 061C
+        UCA1ICTL_H               061D
+        UCA1ICTL_L               061C
+        WDTCTL                   015C
+        WDTCTL_H                 015D
+        WDTCTL_L                 015C
+?Mul32fHwLoc2 ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        ?Mul32fHwLoc2            BF9E
+?Mul32Hw32Loc2 ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        ?Mul32Hw32Loc2           D2BA
+?abort ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+?_exit ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        _exit                    D4A8
+?cppinit ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+?cstart ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        __program_start          6000
+        ?cstart_begin            6000
+        ?cstart_init_zero20      6004
+        ?cstart_init_copy20      6014
+        ?cstart_call_main        6028
+        ?cstart_end              6030
+lowinit ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+?reset_vector ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        ?reset_vector            FFFE
+?exit ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        exit                     D4AC
+?Cast32f32i ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        _Cast32sto32f            C79E
+        _Cast32uto32f            C7B4
+_Cast32fto32u ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        _Cast32fto32u            D470
+?FLT_Extract ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        ?FLT_Extract             CD74
+?FLT_LT ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        ?FLT_LT                  CD1E
+_CmpLt32f ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        _CmpLt32f                D488
+_Add32f ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        _Add32f                  BCC8
+        _Sub32f                  BCC4
+?malloc ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+?DivMod816u ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        ?DivMod8u                D358
+        ?DivMod16u               D35C
+?DivMod32u ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        ?DivMod32u               CF50
+?memcpy ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        memcpy                   D31C
+?memmove ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+?memset ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        memset                   D33A
+?memzero ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        __data20_memzero         D3DC
+        __data20_memcpy          D4A4
+?setjmp ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+?longjmp ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+?xcloseall ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+?xgetmemchunk ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+?__exit ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+        __exit                   D4B0
+?xxmemxfree ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+?xxmemxmalloc ( D:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xlfn.r43 )
+
+
+                ****************************************
+                *                                      *
+                *              CALL GRAPH              *
+                *                                      *
+                ****************************************
+
+  ->Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+                             CSTACK
+    | Stack used (prev) :  00000000
+  03      TimerA_RestCount
+          | Stack used (prev) :  00000000
+          | + function block  :  00000004
+  05          SplitNum
+              | Stack used (prev) :  00000000
+              | + function block  :  00000014
+  06            UartSendByte
+                | Stack used (prev) :  00000000
+                | + function block  :  00000004
+  05          UartSendStrings
+              | Stack used (prev) :  00000004
+              | + function block  :  00000004
+  05          UartSendStrings
+              | Stack used (prev) :  00000004
+              | + function block  :  00000004
+              |  Already listed
+  04        UartSendNumber
+            | Stack used (prev) :  00000014
+            | + function block  :  00000004
+  04        UartSendStrings
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  05          UartSendStrings
+              | Stack used (prev) :  00000004
+              | + function block  :  00000004
+              |  Already listed
+  05          FlashReadB
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+  05          FlashWriteB
+              | Stack used (prev) :  00000000
+              | + function block  :  0000000C
+  05          EraseSectorFlashB
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+  07              SPI1_ReadWriteByte
+                  | Stack used (prev) :  00000000
+                  | + function block  :  00000004
+  07              SPI1_ReadWriteByte
+                  | Stack used (prev) :  00000000
+                  | + function block  :  00000004
+                  |  Already listed
+  06            RFM98_Write_Reg
+                | Stack used (prev) :  00000004
+                | + function block  :  00000004
+  05          RfDisable
+              | Stack used (prev) :  00000008
+              | + function block  :  00000004
+  04        DownLineConfig
+            | Stack used (prev) :  0000000C
+            | + function block  :  00000004
+  04        TimerA_RestCount
+            | Stack used (prev) :  00000000
+            | + function block  :  00000004
+            |  Already listed
+  05          FlashRead
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+  05          FlashWrite
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+  05          EraseSectorFlash
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+  04        SenUfCfg
+            | Stack used (prev) :  00000004
+            | + function block  :  0000000C
+  05          DownLineConfig
+              | Stack used (prev) :  0000000C
+              | + function block  :  00000004
+              |  Already listed
+  05          TimerA_RestCount
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+              |  Already listed
+  05          FlashRead
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+              |  Already listed
+  05          SensorRest
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+  04        SenCfgProcess
+            | Stack used (prev) :  00000010
+            | + function block  :  0000000E
+  05          TimerA_RestCount
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+              |  Already listed
+  04        SyncProcess
+            | Stack used (prev) :  00000004
+            | + function block  :  00000008
+  03      ComandPro
+          | Stack used (prev) :  0000001E
+          | + function block  :  0000000C
+  03      AD_ALL_OFF
+          | Stack used (prev) :  00000000
+          | + function block  :  00000004
+  03      SensorRest
+          | Stack used (prev) :  00000000
+          | + function block  :  00000004
+          |  Already listed
+  04        RfDisable
+            | Stack used (prev) :  00000008
+            | + function block  :  00000004
+            |  Already listed
+  04        RfDisable
+            | Stack used (prev) :  00000008
+            | + function block  :  00000004
+            |  Already listed
+  05          SPI1_ReadWriteByte
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+              |  Already listed
+  05          SPI1_ReadWriteByte
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+              |  Already listed
+  04        RFM98_Read_Buf
+            | Stack used (prev) :  00000004
+            | + function block  :  0000000C
+  05          SPI1_ReadWriteByte
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+              |  Already listed
+  05          SPI1_ReadWriteByte
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+              |  Already listed
+  04        RFM98_Read_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+  04        RFM98_Read_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Read_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  03      RFM98_LoRaRxPacket
+          | Stack used (prev) :  00000010
+          | + function block  :  00000014
+  02    RFDataPreprocess
+        | Stack used (prev) :  0000002A
+        | + function block  :  00000008
+  02    RfDisable
+        | Stack used (prev) :  00000008
+        | + function block  :  00000004
+        |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  03      RFM98_Config
+          | Stack used (prev) :  00000008
+          | + function block  :  00000004
+  03      RFM98_Read_Reg
+          | Stack used (prev) :  00000004
+          | + function block  :  00000004
+          |  Already listed
+  03      RFM98_Write_Reg
+          | Stack used (prev) :  00000004
+          | + function block  :  00000004
+          |  Already listed
+  03      RFM98_Write_Reg
+          | Stack used (prev) :  00000004
+          | + function block  :  00000004
+          |  Already listed
+  03      RFM98_Write_Reg
+          | Stack used (prev) :  00000004
+          | + function block  :  00000004
+          |  Already listed
+  03      RFM98_Write_Reg
+          | Stack used (prev) :  00000004
+          | + function block  :  00000004
+          |  Already listed
+  03      RFM98_Write_Reg
+          | Stack used (prev) :  00000004
+          | + function block  :  00000004
+          |  Already listed
+  03      RFM98_Write_Reg
+          | Stack used (prev) :  00000004
+          | + function block  :  00000004
+          |  Already listed
+  03      RFM98_Write_Reg
+          | Stack used (prev) :  00000004
+          | + function block  :  00000004
+          |  Already listed
+  03      RFM98_Write_Reg
+          | Stack used (prev) :  00000004
+          | + function block  :  00000004
+          |  Already listed
+  02    RFM98_LoRaEntryRx
+        | Stack used (prev) :  0000000C
+        | + function block  :  00000008
+  02    RFM98_Read_Reg
+        | Stack used (prev) :  00000004
+        | + function block  :  00000004
+        |  Already listed
+  02    RFM98_Write_Reg
+        | Stack used (prev) :  00000004
+        | + function block  :  00000004
+        |  Already listed
+  01  FIFOP
+      | Stack used (prev) :  00000032
+      | + function block  :  00000014
+  <-Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+    | Stack used          :  00000046
+
+
+  ->Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+                             CSTACK
+    | Stack used (prev) :  00000046
+  02    UartSendNumber
+        | Stack used (prev) :  00000014
+        | + function block  :  00000004
+        |  Already listed
+  02    UartSendStrings
+        | Stack used (prev) :  00000004
+        | + function block  :  00000004
+        |  Already listed
+  02    TimeClockUpdate
+        | Stack used (prev) :  00000046
+        | + function block  :  00000004
+  04        UpdataBasline
+            | Stack used (prev) :  00000046
+            | + function block  :  00000014
+  03      GetBaseLineAny
+          | Stack used (prev) :  0000005A
+          | + function block  :  00000014
+  03      GetBaseLineAny
+          | Stack used (prev) :  0000005A
+          | + function block  :  00000014
+          |  Already listed
+  04        UpdataBasline
+            | Stack used (prev) :  00000046
+            | + function block  :  00000014
+            |  Already listed
+  03      BaseLineUpdataX
+          | Stack used (prev) :  0000005A
+          | + function block  :  00000004
+  04        UpdataBasline
+            | Stack used (prev) :  00000046
+            | + function block  :  00000014
+            |  Already listed
+  03      BaseLineUpdataZ
+          | Stack used (prev) :  0000005A
+          | + function block  :  00000004
+  03      DecBase
+          | Stack used (prev) :  00000046
+          | + function block  :  00000004
+  03      DecBase
+          | Stack used (prev) :  00000046
+          | + function block  :  00000004
+          |  Already listed
+  03      DecBase
+          | Stack used (prev) :  00000046
+          | + function block  :  00000004
+          |  Already listed
+  03      DecBase
+          | Stack used (prev) :  00000046
+          | + function block  :  00000004
+          |  Already listed
+  03      DecBase
+          | Stack used (prev) :  00000046
+          | + function block  :  00000004
+          |  Already listed
+  03      DecBase
+          | Stack used (prev) :  00000046
+          | + function block  :  00000004
+          |  Already listed
+  04        UartSendStrings
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        GetBaseLineAny
+            | Stack used (prev) :  0000005A
+            | + function block  :  00000014
+            |  Already listed
+  04        GetBaseLineAny
+            | Stack used (prev) :  0000005A
+            | + function block  :  00000014
+            |  Already listed
+  04        GetBaseLineAny
+            | Stack used (prev) :  0000005A
+            | + function block  :  00000014
+            |  Already listed
+  04        GetBaseLineAny
+            | Stack used (prev) :  0000005A
+            | + function block  :  00000014
+            |  Already listed
+  05          UpdataBasline
+              | Stack used (prev) :  00000046
+              | + function block  :  00000014
+              |  Already listed
+  04        AnyBaseLineUpdateX
+            | Stack used (prev) :  0000005A
+            | + function block  :  0000000C
+  05          UpdataBasline
+              | Stack used (prev) :  00000046
+              | + function block  :  00000014
+              |  Already listed
+  04        AnyBaseLineUpdateZ
+            | Stack used (prev) :  0000005A
+            | + function block  :  0000000C
+  05          DecBaseOn
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+  05          DecBaseOn
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          CommdOffBaseLine
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+  05          CommdOffBaseLine
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          UpdataBasline
+              | Stack used (prev) :  00000046
+              | + function block  :  00000014
+              |  Already listed
+  05          SensorRest
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+              |  Already listed
+  04        OnEventGetBaseLineX
+            | Stack used (prev) :  0000005A
+            | + function block  :  00000004
+  05          DecBaseOn
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBaseOn
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          CommdOffBaseLine
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          CommdOffBaseLine
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          UpdataBasline
+              | Stack used (prev) :  00000046
+              | + function block  :  00000014
+              |  Already listed
+  05          SensorRest
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+              |  Already listed
+  04        OnEventGetBaseLineZ
+            | Stack used (prev) :  0000005A
+            | + function block  :  00000004
+  04        SaveEvent
+            | Stack used (prev) :  00000046
+            | + function block  :  00000004
+  04        SaveEvent
+            | Stack used (prev) :  00000046
+            | + function block  :  00000004
+            |  Already listed
+  04        SaveEvent
+            | Stack used (prev) :  00000046
+            | + function block  :  00000004
+            |  Already listed
+  05          UartSendStrings
+              | Stack used (prev) :  00000004
+              | + function block  :  00000004
+              |  Already listed
+  05          SaveEvent
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  04        EventOff
+            | Stack used (prev) :  0000004A
+            | + function block  :  00000004
+  04        DecBase
+            | Stack used (prev) :  00000046
+            | + function block  :  00000004
+            |  Already listed
+  04        DecBase
+            | Stack used (prev) :  00000046
+            | + function block  :  00000004
+            |  Already listed
+  04        DecBase
+            | Stack used (prev) :  00000046
+            | + function block  :  00000004
+            |  Already listed
+  04        DecBase
+            | Stack used (prev) :  00000046
+            | + function block  :  00000004
+            |  Already listed
+  04        DecBase
+            | Stack used (prev) :  00000046
+            | + function block  :  00000004
+            |  Already listed
+  04        DecBase
+            | Stack used (prev) :  00000046
+            | + function block  :  00000004
+            |  Already listed
+  04        DecBase
+            | Stack used (prev) :  00000046
+            | + function block  :  00000004
+            |  Already listed
+  04        DecBase
+            | Stack used (prev) :  00000046
+            | + function block  :  00000004
+            |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  04        ScanOnBaseBuff
+            | Stack used (prev) :  0000004A
+            | + function block  :  00000004
+  04        ScanOnBaseBuff
+            | Stack used (prev) :  0000004A
+            | + function block  :  00000004
+            |  Already listed
+  05          SaveEvent
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  05          DecBase
+              | Stack used (prev) :  00000046
+              | + function block  :  00000004
+              |  Already listed
+  04        OnBaseInitChg
+            | Stack used (prev) :  0000004A
+            | + function block  :  00000014
+  04        OnBaseInitChg
+            | Stack used (prev) :  0000004A
+            | + function block  :  00000014
+            |  Already listed
+  03      EventSave
+          | Stack used (prev) :  0000006E
+          | + function block  :  00000008
+  04        UartSendStrings
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  03      JumpToEventON
+          | Stack used (prev) :  00000046
+          | + function block  :  00000004
+  03      UpdataBasline
+          | Stack used (prev) :  00000046
+          | + function block  :  00000014
+          |  Already listed
+  03      UpdataBasline
+          | Stack used (prev) :  00000046
+          | + function block  :  00000014
+          |  Already listed
+  03      SensorRest
+          | Stack used (prev) :  00000000
+          | + function block  :  00000004
+          |  Already listed
+  02    SystemScan
+        | Stack used (prev) :  00000076
+        | + function block  :  00000008
+  02    GetAdValue
+        | Stack used (prev) :  00000046
+        | + function block  :  00000004
+  02    GetAdValue
+        | Stack used (prev) :  00000046
+        | + function block  :  00000004
+        |  Already listed
+  02    AD_ALL_OFF
+        | Stack used (prev) :  00000000
+        | + function block  :  00000004
+        |  Already listed
+  02    M_ADZ_OPEN
+        | Stack used (prev) :  00000046
+        | + function block  :  00000004
+  02    M_ADX_OPEN
+        | Stack used (prev) :  00000046
+        | + function block  :  00000004
+  01  Timer_B0
+      | Stack used (prev) :  0000007E
+      | + function block  :  00000014
+  <-Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+    | Stack used          :  00000092
+
+
+  ->Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+                             CSTACK
+    | Stack used (prev) :  00000092
+  04        SplitNumH8
+            | Stack used (prev) :  00000092
+            | + function block  :  00000004
+  04        UartSendStrings
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        UartSendStrings
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  03      UartSendNumberH8
+          | Stack used (prev) :  00000096
+          | + function block  :  00000004
+  04        SplitNumH
+            | Stack used (prev) :  00000092
+            | + function block  :  00000004
+  04        UartSendStrings
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        UartSendStrings
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  03      UartSendNumberH
+          | Stack used (prev) :  00000096
+          | + function block  :  00000004
+  03      UartSendNumber
+          | Stack used (prev) :  00000014
+          | + function block  :  00000004
+          |  Already listed
+  03      UartSendStrings
+          | Stack used (prev) :  00000004
+          | + function block  :  00000004
+          |  Already listed
+  04        SaveEvent
+            | Stack used (prev) :  00000046
+            | + function block  :  00000004
+            |  Already listed
+  03      ScanRFSet
+          | Stack used (prev) :  00000092
+          | + function block  :  00000004
+  04        UartSendStrings
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        DownLineConfig
+            | Stack used (prev) :  0000000C
+            | + function block  :  00000004
+            |  Already listed
+  04        TimeSlotConfig
+            | Stack used (prev) :  00000092
+            | + function block  :  00000004
+  04        FlashRead
+            | Stack used (prev) :  00000000
+            | + function block  :  00000004
+            |  Already listed
+  04        FlashReadB
+            | Stack used (prev) :  00000000
+            | + function block  :  00000004
+            |  Already listed
+  04        FlashWriteB
+            | Stack used (prev) :  00000000
+            | + function block  :  0000000C
+            |  Already listed
+  04        EraseSectorFlashB
+            | Stack used (prev) :  00000000
+            | + function block  :  00000004
+            |  Already listed
+  04        FlshParamtCfg
+            | Stack used (prev) :  00000092
+            | + function block  :  00000004
+  04        AdIntrruptOn
+            | Stack used (prev) :  00000092
+            | + function block  :  00000004
+  04        AD_ALL_OFF
+            | Stack used (prev) :  00000000
+            | + function block  :  00000004
+            |  Already listed
+  04        SensorRest
+            | Stack used (prev) :  00000000
+            | + function block  :  00000004
+            |  Already listed
+  03      ReciveUpLineAck
+          | Stack used (prev) :  00000096
+          | + function block  :  00000004
+  03      DownLineConfig
+          | Stack used (prev) :  0000000C
+          | + function block  :  00000004
+          |  Already listed
+  03      TimeSlotConfig
+          | Stack used (prev) :  00000092
+          | + function block  :  00000004
+          |  Already listed
+  03      FlashReadB
+          | Stack used (prev) :  00000000
+          | + function block  :  00000004
+          |  Already listed
+  03      FlashWriteB
+          | Stack used (prev) :  00000000
+          | + function block  :  0000000C
+          |  Already listed
+  03      EraseSectorFlashB
+          | Stack used (prev) :  00000000
+          | + function block  :  00000004
+          |  Already listed
+  03      GetRefAD
+          | Stack used (prev) :  00000092
+          | + function block  :  00000004
+  03      GetPowerAD
+          | Stack used (prev) :  00000092
+          | + function block  :  00000004
+  03      GetAdValue
+          | Stack used (prev) :  00000046
+          | + function block  :  00000004
+          |  Already listed
+  03      AD_ALL_OFF
+          | Stack used (prev) :  00000000
+          | + function block  :  00000004
+          |  Already listed
+  03      M_ADZ_OPEN
+          | Stack used (prev) :  00000046
+          | + function block  :  00000004
+          |  Already listed
+  03      M_ADX_OPEN
+          | Stack used (prev) :  00000046
+          | + function block  :  00000004
+          |  Already listed
+  03      RfDisable
+          | Stack used (prev) :  00000008
+          | + function block  :  00000004
+          |  Already listed
+  05          SPI1_ReadWriteByte
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+              |  Already listed
+  05          SPI1_ReadWriteByte
+              | Stack used (prev) :  00000000
+              | + function block  :  00000004
+              |  Already listed
+  04        RFM98_Write_Buf
+            | Stack used (prev) :  00000092
+            | + function block  :  0000000C
+  04        RFM98_Read_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  03      RfTxPacket
+          | Stack used (prev) :  0000009E
+          | + function block  :  0000000C
+  04        RFM98_Config
+            | Stack used (prev) :  00000008
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Read_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Read_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        RFM98_Write_Reg
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  03      RFM98_LoRaEntryTx
+          | Stack used (prev) :  00000092
+          | + function block  :  00000008
+  03      RFM98_LoRaEntryRx
+          | Stack used (prev) :  0000000C
+          | + function block  :  00000008
+          |  Already listed
+  03      RFM98_SPI_Init
+          | Stack used (prev) :  00000092
+          | + function block  :  00000004
+  02    ModeUpLineSlot
+        | Stack used (prev) :  000000AA
+        | + function block  :  00000004
+  03      UartSendNumber
+          | Stack used (prev) :  00000014
+          | + function block  :  00000004
+          |  Already listed
+  03      UartSendStrings
+          | Stack used (prev) :  00000004
+          | + function block  :  00000004
+          |  Already listed
+  04        UartSendNumber
+            | Stack used (prev) :  00000014
+            | + function block  :  00000004
+            |  Already listed
+  04        UartSendStrings
+            | Stack used (prev) :  00000004
+            | + function block  :  00000004
+            |  Already listed
+  04        FlashReadB
+            | Stack used (prev) :  00000000
+            | + function block  :  00000004
+            |  Already listed
+  04        FlashWriteB
+            | Stack used (prev) :  00000000
+            | + function block  :  0000000C
+            |  Already listed
+  04        EraseSectorFlashB
+            | Stack used (prev) :  00000000
+            | + function block  :  00000004
+            |  Already listed
+  04        RfTxPacket
+            | Stack used (prev) :  0000009E
+            | + function block  :  0000000C
+            |  Already listed
+  04        RFM98_LoRaEntryTx
+            | Stack used (prev) :  00000092
+            | + function block  :  00000008
+            |  Already listed
+  03      SaveCode
+          | Stack used (prev) :  000000AA
+          | + function block  :  00000004
+  03      RFM98_LoRaEntryRx
+          | Stack used (prev) :  0000000C
+          | + function block  :  00000008
+          |  Already listed
+  02    ModeDownCode_Slot
+        | Stack used (prev) :  000000AE
+        | + function block  :  00000004
+  02    DownLineConfig
+        | Stack used (prev) :  0000000C
+        | + function block  :  00000004
+        |  Already listed
+  02    DownLineConfig
+        | Stack used (prev) :  0000000C
+        | + function block  :  00000004
+        |  Already listed
+  02    DownLineConfig
+        | Stack used (prev) :  0000000C
+        | + function block  :  00000004
+        |  Already listed
+  03      UartSendStrings
+          | Stack used (prev) :  00000004
+          | + function block  :  00000004
+          |  Already listed
+  03      DownLineConfig
+          | Stack used (prev) :  0000000C
+          | + function block  :  00000004
+          |  Already listed
+  03      DownLineConfig
+          | Stack used (prev) :  0000000C
+          | + function block  :  00000004
+          |  Already listed
+  03      DownLineConfig
+          | Stack used (prev) :  0000000C
+          | + function block  :  00000004
+          |  Already listed
+  03      DownLineConfig
+          | Stack used (prev) :  0000000C
+          | + function block  :  00000004
+          |  Already listed
+  03      RfDisable
+          | Stack used (prev) :  00000008
+          | + function block  :  00000004
+          |  Already listed
+  03      RfTxPacket
+          | Stack used (prev) :  0000009E
+          | + function block  :  0000000C
+          |  Already listed
+  03      RFM98_LoRaEntryTx
+          | Stack used (prev) :  00000092
+          | + function block  :  00000008
+          |  Already listed
+  03      RFM98_LoRaEntryRx
+          | Stack used (prev) :  0000000C
+          | + function block  :  00000008
+          |  Already listed
+  02    ModeB_EventSlot
+        | Stack used (prev) :  000000AA
+        | + function block  :  00000004
+  01  TimerSlot
+      | Stack used (prev) :  000000B2
+      | + function block  :  00000014
+  <-Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+    | Stack used          :  000000C6
+
+
+  ->Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+                             CSTACK
+    | Stack used (prev) :  000000C6
+  02    UartSendNumberH
+        | Stack used (prev) :  00000096
+        | + function block  :  00000004
+        |  Already listed
+  02    UartSendNumber
+        | Stack used (prev) :  00000014
+        | + function block  :  00000004
+        |  Already listed
+  02    UartSendStrings
+        | Stack used (prev) :  00000004
+        | + function block  :  00000004
+        |  Already listed
+  02    UartSendStrings
+        | Stack used (prev) :  00000004
+        | + function block  :  00000004
+        |  Already listed
+  02    UartSendStrings
+        | Stack used (prev) :  00000004
+        | + function block  :  00000004
+        |  Already listed
+  02    UartSendStrings
+        | Stack used (prev) :  00000004
+        | + function block  :  00000004
+        |  Already listed
+  02    UartSendStrings
+        | Stack used (prev) :  00000004
+        | + function block  :  00000004
+        |  Already listed
+  02    FlashRead
+        | Stack used (prev) :  00000000
+        | + function block  :  00000004
+        |  Already listed
+  02    FlashReadB
+        | Stack used (prev) :  00000000
+        | + function block  :  00000004
+        |  Already listed
+  02    FlashWriteB
+        | Stack used (prev) :  00000000
+        | + function block  :  0000000C
+        |  Already listed
+  02    EraseSectorFlashB
+        | Stack used (prev) :  00000000
+        | + function block  :  00000004
+        |  Already listed
+  02    FlshParamtCfg
+        | Stack used (prev) :  00000092
+        | + function block  :  00000004
+        |  Already listed
+  01  usart1_rx
+      | Stack used (prev) :  000000C6
+      | + function block  :  00000014
+  <-Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+    | Stack used          :  000000DA
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  000000DA
+  01  memcpy
+      | Stack used (prev) :  000000DA
+      | + function block  :  0000000C
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  000000E6
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  000000DA
+  01  memset
+      | Stack used (prev) :  000000DA
+      | + function block  :  0000000C
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  000000E6
+
+
+  ->Sub-tree of type: Function tree
+                             CSTACK
+    | Stack used (prev) :  000000E6
+  02    UartSendNumberH
+        | Stack used (prev) :  00000096
+        | + function block  :  00000004
+        |  Already listed
+  02    UartSendNumber
+        | Stack used (prev) :  00000014
+        | + function block  :  00000004
+        |  Already listed
+  02    UartSendStrings
+        | Stack used (prev) :  00000004
+        | + function block  :  00000004
+        |  Already listed
+  02    TimerAStart
+        | Stack used (prev) :  000000E6
+        | + function block  :  00000004
+  02    delay_8S
+        | Stack used (prev) :  000000E6
+        | + function block  :  00000004
+  03      TimeSlotConfig
+          | Stack used (prev) :  00000092
+          | + function block  :  00000004
+          |  Already listed
+  03      FlashRead
+          | Stack used (prev) :  00000000
+          | + function block  :  00000004
+          |  Already listed
+  03      FlashReadB
+          | Stack used (prev) :  00000000
+          | + function block  :  00000004
+          |  Already listed
+  03      FlashWriteB
+          | Stack used (prev) :  00000000
+          | + function block  :  0000000C
+          |  Already listed
+  03      EraseSectorFlashB
+          | Stack used (prev) :  00000000
+          | + function block  :  00000004
+          |  Already listed
+  02    FlashParamterInit
+        | Stack used (prev) :  000000E6
+        | + function block  :  00000004
+  03      UartInit
+          | Stack used (prev) :  000000E6
+          | + function block  :  00000004
+  03      TimerAInit
+          | Stack used (prev) :  000000E6
+          | + function block  :  00000004
+  04        memset
+            | Stack used (prev) :  000000DA
+            | + function block  :  0000000C
+            |  Already listed
+  03      TimeParamterInit
+          | Stack used (prev) :  000000E6
+          | + function block  :  00000004
+  04        memset
+            | Stack used (prev) :  000000DA
+            | + function block  :  0000000C
+            |  Already listed
+  03      InitMagenticParamter
+          | Stack used (prev) :  000000E6
+          | + function block  :  00000004
+  04        memset
+            | Stack used (prev) :  000000DA
+            | + function block  :  0000000C
+            |  Already listed
+  03      SystemParamterInit
+          | Stack used (prev) :  000000E6
+          | + function block  :  00000004
+  03      LedInit
+          | Stack used (prev) :  000000E6
+          | + function block  :  00000004
+  03      OscInit
+          | Stack used (prev) :  000000E6
+          | + function block  :  00000004
+  03      AdIntrruptInit
+          | Stack used (prev) :  000000E6
+          | + function block  :  00000004
+  04        memset
+            | Stack used (prev) :  000000DA
+            | + function block  :  0000000C
+            |  Already listed
+  03      AdParamterInit
+          | Stack used (prev) :  000000E6
+          | + function block  :  00000004
+  04        AdParamterInit
+            | Stack used (prev) :  000000E6
+            | + function block  :  00000004
+            |  Already listed
+  03      AdInit
+          | Stack used (prev) :  000000EA
+          | + function block  :  00000004
+  03      RFM98_SPI_Init
+          | Stack used (prev) :  00000092
+          | + function block  :  00000004
+          |  Already listed
+  02    BoardInit
+        | Stack used (prev) :  000000EE
+        | + function block  :  00000004
+  02    AdIntrruptOff
+        | Stack used (prev) :  000000E6
+        | + function block  :  00000004
+  02    GetRefAD
+        | Stack used (prev) :  00000092
+        | + function block  :  00000004
+        |  Already listed
+  02    GetPowerAD
+        | Stack used (prev) :  00000092
+        | + function block  :  00000004
+        |  Already listed
+  02    AD_ALL_OFF
+        | Stack used (prev) :  00000000
+        | + function block  :  00000004
+        |  Already listed
+  02    SensorRest
+        | Stack used (prev) :  00000000
+        | + function block  :  00000004
+        |  Already listed
+  01  main
+      | Stack used (prev) :  000000F2
+      | + function block  :  00000004
+  <-Sub-tree of type: Function tree
+    | Stack used          :  000000F6
+
+
+  ->Sub-tree of type: Function tree
+                             CSTACK
+    | Stack used (prev) :  000000F6
+  01  exit
+      | Stack used (prev) :  000000F6
+      | + function block  :  00000004
+  <-Sub-tree of type: Function tree
+    | Stack used          :  000000FA
+
+
+  ->Sub-tree of type: Function tree
+                             CSTACK
+    | Stack used (prev) :  000000FA
+  01  __data20_memzero
+      | Stack used (prev) :  000000FA
+      | + function block  :  00000004
+  <-Sub-tree of type: Function tree
+    | Stack used          :  000000FE
+
+
+  ->Sub-tree of type: Function tree
+                             CSTACK
+    | Stack used (prev) :  000000FE
+  02    memcpy
+        | Stack used (prev) :  000000DA
+        | + function block  :  0000000C
+        |  Already listed
+  01  __data20_memcpy
+      | Stack used (prev) :  000000FE
+      | + function block  :  00000004
+  <-Sub-tree of type: Function tree
+    | Stack used          :  00000102
+
+
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+
+SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
+=======              =====    =============   ===========     ====  ====  =====
+DATA16_AN                              0102 - 0103               2   rel    0
+                                       0140 - 0141               2 
+                                       0144 - 0145               2 
+                                       015C - 015D               2 
+                                       0160 - 0165               6 
+                                       0168 - 0169               2 
+                                       016C - 016F               4 
+                                       0202 - 0205               4 
+                                       0218 - 021D               6 
+                                       0222 - 0225               4 
+                                       022A - 022B               2 
+                                       0244 - 0245               2 
+                                       024A - 024B               2 
+                                       0262 - 0265               4 
+                                       026A - 026B               2 
+                                       0380 - 0383               4 
+                                       0392 - 0395               4 
+                                       03C0 - 03C3               4 
+                                       03D2 - 03D3               2 
+                                       05E0 - 05E1               2 
+                                       05E6 - 05E7               2 
+                                       05EC - 05EC               1 
+                                       05EE - 05EE               1 
+                                       05FC - 05FD               2 
+                                       0600 - 0601               2 
+                                       0606 - 0608               3 
+                                       060C - 060C               1 
+                                       060E - 060E               1 
+                                       061C - 061D               2 
+                                       0700 - 0703               4 
+                                       070A - 070B               2 
+                                       0710 - 0710               1 
+                                       0715 - 0716               2 
+                                       0720 - 0721               2 
+                                       072A - 072D               4 
+DATA20_I                               1C00 - 1C03               4   rel    1
+DATA20_Z                               1C04 - 217D             57A   rel    1
+CSTACK                                 5B60 - 5BFF              A0   rel    1
+CSTART                                 6000 - 602F              30   rel    1
+ISR_CODE                               6030 - 66B7             688   rel    1
+<CODE> 1                               66B8 - D4B7            6E00   rel    1
+DATA20_C                               D4B8 - D66D             1B6   rel    1
+DATA20_ID                              D66E - D671               4   rel    1
+INTVEC                                 FF80 - FFF9              7A   com    1
+RESET                                  FFFE - FFFF               2   rel    1
+
+                ****************************************
+                *                                      *
+                *        END OF CROSS REFERENCE        *
+                *                                      *
+                ****************************************
+
+ 30 004 bytes of CODE  memory
+  1 566 bytes of DATA  memory (+ 92 absolute )
+    442 bytes of CONST memory
+
+Errors: none
+Warnings: none
+

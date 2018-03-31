@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3930407404</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\src\BC95\BC95.c</file>
+      <file>$PROJ_DIR$\..\src\BC95\mcu_buffer.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\board.c</file>
+      <file>$PROJ_DIR$\..\comm\types.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\src\BC95\common.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcu_buffer.pbi</file>
+      <file>$PROJ_DIR$\..\src\BC95\BC95_CluB.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BC95_CluB.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BC95_CluB.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x54x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\BC95.pbi</file>
+      <file>$PROJ_DIR$\..\src\sensor\ad.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcu_buffer.r43</file>
+      <file>$PROJ_DIR$\..\src\sensor\magentic.h</file>
+      <file>$PROJ_DIR$\..\src\time\timeslot.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xlfn.r43</file>
+      <file>$PROJ_DIR$\..\src\cc2420\cfg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timeslot.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xlfn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\magentic.r43</file>
+      <file>$PROJ_DIR$\..\src\BC95\BC95_CluB.c</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timeslot.r43</file>
+      <file>$PROJ_DIR$\..\lnk430f5418Low.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.r43</file>
+      <file>$PROJ_DIR$\..\src\cc2420\rf_hal.h</file>
+      <file>$PROJ_DIR$\..\src\cc2420\snp.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sensor.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\sensor.txt</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BC95.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\rf_hal.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.pbi</file>
+      <file>$PROJ_DIR$\..\src\bus\flash.c</file>
+      <file>$PROJ_DIR$\..\src\bus\uart.c</file>
+      <file>$PROJ_DIR$\..\src\cc2420\cfg.c</file>
+      <file>$PROJ_DIR$\..\src\cc2420\rf_hal.c</file>
+      <file>$PROJ_DIR$\..\src\sensor\ad.c</file>
+      <file>$PROJ_DIR$\..\src\sensor\magentic.c</file>
+      <file>$PROJ_DIR$\..\src\time\timeslot.c</file>
+      <file>$PROJ_DIR$\..\src\rfm98\24l01.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\magentic.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\src\BC95\brd_bc95.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\24l01.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rf_hal.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cfg.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$PROJ_DIR$\board.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash.r43</file>
+      <file>$PROJ_DIR$\..\src\bus\uart.h</file>
+      <file>$PROJ_DIR$\Debug\List\sensor.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\cfg.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\24l01.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\ad.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\sensor.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ad.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\src\rfm98\24l01.h</file>
+      <file>$PROJ_DIR$\..\src\BC95\mcu_buffer.h</file>
+      <file>$PROJ_DIR$\..\src\bus\flash.h</file>
+      <file>$PROJ_DIR$\..\src\cc2420\hal_cc2520.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\src\BC95\BC95.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 15 61 32 59 29 33 54 74 5 38 76 4 16 8 13 65</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 6 15 61 32 59 29 26 33 54 74 5 38 76 4 16 8 13 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\BC95\mcu_buffer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 15 61 32 59 29 33 54 74 5 38</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 6 15 61 32 59 29 26 33 54 74 5 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 16 8 13 19 37 65 62 22 36 24 77 75 63 32 59 29 33 54 74 5 34 38 61 21 55</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 16 8 13 19 37 65 62 22 36 24 77 75 63 32 59 29 26 33 54 74 5 34 38 61 21 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 16 8 13 62 19 37 65 22 21 36 24 75</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 16 8 13 62 19 37 65 22 21 36 24 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 70 66</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\BC95\BC95_CluB.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 12 32 59 29 33 54 74 61 5</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 12 32 59 29 26 33 54 74 61 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\sensor.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 56 18 73 17 60 44 53 72 9 57 25 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\sensor.txt</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 31 7 68 69 41 67 64 27 58 43 30 35 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\bus\flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 16 8 13 77 24 37</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 16 8 13 77 24 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\bus\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 16 8 13 65 24 37 77 61 32 59 29 33 54 74 5 21 19 22 75 76 6 15 38</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 16 8 13 65 24 37 77 61 32 59 29 26 33 54 74 5 21 19 22 75 76 6 15 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\cc2420\cfg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 16 8 13 24 37 22 62 21 19 65 77 38 32 59 29 33 54 74 5 61</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 16 8 13 24 37 22 62 21 19 65 77 38 32 59 29 26 33 54 74 5 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\cc2420\rf_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 16 8 13 78 36 22 37 19 62 65 24 77 21 75 61 32 59 29 33 54 74 5</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 16 8 13 78 36 22 37 19 62 65 24 77 21 75 61 32 59 29 26 33 54 74 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\sensor\ad.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 16 8 13 19 37 21 22 36 24 62 65 77 75 38 32 59 29 33 54 74 5 61</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 16 8 13 19 37 21 22 36 24 62 65 77 75 38 32 59 29 26 33 54 74 5 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\sensor\magentic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 16 8 13 21 37 19 22 24 77 61 32 59 29 33 54 74 5 62 65</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 16 8 13 21 37 19 22 24 77 61 32 59 29 26 33 54 74 5 62 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\time\timeslot.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 16 8 13 22 78 19 37 65 21 61 32 59 29 33 54 74 5 62 24 36 77 75 38</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 16 8 13 22 78 19 37 65 21 61 32 59 29 26 33 54 74 5 62 24 36 77 75 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\rfm98\24l01.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 16 8 13 75 36 62 37 22 65 24 19</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4 16 8 13 75 36 62 37 22 65 24 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\sensor.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 31 7 68 42 69 41 67 64 27 58 20 43 30 35 23</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
